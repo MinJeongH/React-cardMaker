@@ -17,7 +17,7 @@ const Maker = ({ authService }) => {
       email: "gkaalswjd2@gmail.com",
       message: "I can do it!",
       fileName: "Minn",
-      fileURL: "Minn.png",
+      fileURL: null,
     },
     {
       id: "2",
@@ -28,18 +28,18 @@ const Maker = ({ authService }) => {
       email: "nalnez13@gmail.com",
       message: "Everything well",
       fileName: "Han",
-      fileURL: "Han.png",
+      fileURL: null,
     },
     {
       id: "3",
       name: "James",
       company: "Samsung",
-      theme: "light",
+      theme: "colorful",
       title: "Software Enginner",
       email: "hmj0818@gmail.com",
       message: "I can do anything!",
       fileName: "James",
-      fileURL: "James.png",
+      fileURL: null,
     },
   ]);
   const navigate = useNavigate();
