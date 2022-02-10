@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import Editor from "../editor/editor";
-import Footer from "../footer/footer";
-import Header from "../header/header";
-import Preview from "../preview/preview";
+import Editor from "../editor/editor.jsx";
+import Footer from "../footer/footer.jsx";
+import Header from "../header/header.jsx";
+import Preview from "../preview/preview.jsx";
 import styles from "./maker.module.css";
 
 const Maker = ({ FileInput, authService, cardRepository }) => {

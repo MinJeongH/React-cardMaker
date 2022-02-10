@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Footer from "../footer/footer";
-import Header from "../header/header";
+import Footer from "../footer/footer.jsx";
+import Header from "../header/header.jsx";
 import styles from "./login.module.css";
 
 const Login = ({ authService }) => {

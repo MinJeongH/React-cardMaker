@@ -1,4 +1,4 @@
-import {firebaseAuth, githubProvider, googleProvider} from "./firebase";
+import {firebaseAuth, githubProvider, googleProvider} from "./firebase.js";
 
 class AuthService {
     login(providerName) {

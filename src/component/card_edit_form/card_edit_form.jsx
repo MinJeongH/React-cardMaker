@@ -1,6 +1,5 @@
-import React from "react";
-import { useRef } from "react/cjs/react.development";
-import Button from "../button/button";
+import React, { useRef } from "react";
+import Button from "../button/button.jsx";
 import styles from "./card_edit_form.module.css";
 
 const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {

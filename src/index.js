@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
 import ReactDOM from 'react-dom';
 import './index.module.css';
-import App from './app';
-import AuthService from './service/auth_sevice';
-import ImageUploader from './service/image_uploader';
-import ImageFileInput from './component/image_file_input/image_file_input';
-import CardRepository from './service/card_repository';
+import App from './app.jsx';
+import AuthService from './service/auth_sevice.js';
+import ImageUploader from './service/image_uploader.js';
+import ImageFileInput from './component/image_file_input/image_file_input.jsx';
+import CardRepository from './service/card_repository.js';
 
 const authService = new AuthService();
 const cardRepository = new CardRepository();

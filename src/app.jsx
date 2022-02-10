@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import styles from "./app.module.css";
-import Login from "./component/login/login";
-import Maker from "./component/maker/maker";
+import Login from "./component/login/login.jsx";
+import Maker from "./component/maker/maker.jsx";
 
 function App({ FileInput, authService, cardRepository }) {
   return (

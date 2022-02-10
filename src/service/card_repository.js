@@ -1,4 +1,4 @@
-import {firebaseDatabase} from "./firebase";
+import {firebaseDatabase} from "./firebase.js";
 
 
 class CardRepository {
